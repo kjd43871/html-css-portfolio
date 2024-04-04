@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFE7E3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.frame {
+  margin: 30px 150px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.navigator {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #C2B4AB;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.nav-menu {
+  font-size: 40px; 
+  text-decoration-line: none;
+  color: darkgray;
+  margin-left: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 200;
+}
+
+.nav-menu:hover {
+  color: black;
+  transition: 0.7s;
+}
+
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 2;
+  margin-top: 100px;
+}
+
+#profile-img {
+  width: 50%;
+  max-width: 500px; 
+  height: auto;
+  border-radius: 15px;
+}
+
+.introduction {
+  margin: 20px; 
+  padding: 20px; 
+  text-align: center; 
+  justify-content: center;
+}
+
+.text1 {
+  font-size: 50px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+.introduce {
+  margin-bottom: 20px; /* 반응형 디자인에 맞게 조정 */
+  font-size: 20px; /* 반응형 글꼴 크기 조정 */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+}
+
+.introduce2 {
+  margin-bottom: 10px;
+  font-size: 22px; /* 반응형 글꼴 크기 조정 */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  min-width: 300px;
+}
+
+.recent2 {
+  font-size: 60px; /* 반응형 글꼴 크기 조정 */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 700;
+  color: #C2B4AB;
+  margin: 20px; /* 반응형 디자인에 맞게 조정 */
+  text-align: center;
+  text-decoration: underline;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pro123 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px; /* 반응형 디자인에 맞게 조정 */
+}
+
+.valuetable {
+  margin-left: 20px; /* 반응형 디자인에 맞게 조정 */
+  margin-top: 10px; /* 반응형 디자인에 맞게 조정 */
+}
+
+.profile-img2 {
+  width: 30%; /* 이미지 크기를 유동적으로 조정 */
+  max-width: 180px; /* 최대 너비 지정 */
+  height: auto; /* 비율 유지를 위해 높이 자동으로 조정 */
+  border-radius: 100px;
+}
+
+.valuetext1,
+.valuetext2 {
+  border: 1px solid black;
+  font-size: 22px; /* 반응형 글꼴 크기 조정 */
+  width: 90%; /* 너비를 유동적으로 조정 */
+  max-width: 650px; /* 최대 너비 지정 */
+  min-height: 50px; /* 최소 높이 설정 */
+  text-align: left;
+  padding: 1vw; /* 반응형 패딩 조정 */
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  font-size: 3vw; /* 반응형 글꼴 크기 조정 */
+  margin-bottom: 10px;
+}
+
+.links {
+  margin-bottom: 10px;
+}
